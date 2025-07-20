@@ -1,6 +1,20 @@
 {
-	"dependencies": {
-		"express": "^5.1.0",
-		"express-handlebars": "^8.0.3"
-	}
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint j-home.js lib"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "express-handlebars": "^8.0.3"
+    },
+    "devDependencies": {
+        "@eslint/css": "^0.10.0",
+        "@eslint/js": "^9.31.0",
+        "@eslint/json": "^0.13.0",
+        "@eslint/markdown": "^7.0.0",
+        "eslint": "^9.31.0",
+        "eslint-plugin-jest": "^29.0.1",
+        "globals": "^16.3.0",
+        "jest": "^30.0.4"
+    }
 }
